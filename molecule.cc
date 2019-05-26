@@ -112,7 +112,6 @@ double Molecule::torsion(int atom1,int atom2,int atom3,int atom4)
   cross_product(ejk,ekl,cross2);
   double result1=dot_product(cross1,cross2);
   double result2=result1/inner1/inner2;
-  cout<<result2<<endl;
   if (result2>0)
   {
     double tor;

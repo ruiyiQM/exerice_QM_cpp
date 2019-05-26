@@ -1,4 +1,5 @@
 #include "molecule.h"
+#include "Eigen/Dense"
 using namespace std;
 
 int main(int argc, char const *argv[]) {
